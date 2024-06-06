@@ -6,7 +6,7 @@ import studentsRouter from './routers/students.js';
 
 import { env } from './utils/env.js';
 import { notFoundHandler } from './middlewares/notFoundHandler.js';
-import { errorHendler } from './middlewares/errorHandler.js';
+import errorHendler from './middlewares/errorHandler.js';
 
 const PORT = Number(env('PORT', '3000'));
 
